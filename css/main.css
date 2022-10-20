@@ -116,5 +116,10 @@ header {
     gap: 13px;
   }
 }
-
-/*# sourceMappingURL=main.css.map */
+.main {
+  background-image: url("../img/hero.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: 100%;
+}/*# sourceMappingURL=main.css.map */
