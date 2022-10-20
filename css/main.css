@@ -116,5 +116,27 @@ header {
     gap: 13px;
   }
 }
-
-/*# sourceMappingURL=main.css.map */
+.form_section_container {
+  display: flex;
+}
+.form_section_container_treatment {
+  width: 300px;
+  height: 300px;
+  background-color: #ffd600;
+  border-radius: 5px;
+}
+.form_section_container .form_section_container_appoitment {
+  width: 540px;
+  height: 359px;
+  background-color: #0055b8;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 5px;
+}
+.form_section_container .form_section_container_prosthetics {
+  width: 300px;
+  height: 300px;
+  background-color: #ffe040;
+  border-radius: 5px;
+}/*# sourceMappingURL=main.css.map */
