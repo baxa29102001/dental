@@ -57,10 +57,26 @@ header {
       display: flex;
       justify-content: space-between;
 
+      
+      &_time{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+
+      &_desc_green{
+        color: green;
+      }
+
       &_phone {
         display: flex;
         align-items: center;
         gap: 20px;
+
+        &_lorem a{
+            text-decoration: none;
+            color: black;
+        }
 
         p {
           font-weight: 500;

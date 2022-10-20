@@ -84,10 +84,22 @@ header {
     display: flex;
     justify-content: space-between;
   }
+  .contact_wrapper_time {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .contact_wrapper_desc_green {
+    color: green;
+  }
   .contact_wrapper_phone {
     display: flex;
     align-items: center;
     gap: 20px;
+  }
+  .contact_wrapper_phone_lorem a {
+    text-decoration: none;
+    color: black;
   }
   .contact_wrapper_phone p {
     font-weight: 500;
@@ -115,6 +127,4 @@ header {
   .header_socials {
     gap: 13px;
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
