@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 375px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 12.5px;
+  padding-right: 12.5px;
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 576px;
+    padding: 0 18px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    padding: 0 15px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    padding: 0 12px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1180px;
+    padding: 0 20px;
+  }
+}
+.contact {
+  display: none;
+}
+
+header {
+  background-color: #0055b8;
+}
+
+.header {
+  padding: 23px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.header_navigation, .header_socials {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .header_burger_menu {
+    display: none;
+  }
+  .header_navigation, .header_socials {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  .header_navigation {
+    gap: 34px;
+  }
+  .header_navigation_item a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .header_socials {
+    gap: 13px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact {
+    display: block;
+  }
+  .contact_wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact_wrapper_phone {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .contact_wrapper_phone p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #272727;
+  }
+  .header_burger_menu {
+    display: none;
+  }
+  .header_navigation, .header_socials {
+    display: flex;
+    list-style: none;
+  }
+  .header_navigation {
+    gap: 34px;
+  }
+  .header_navigation_item a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .header_socials {
+    gap: 13px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

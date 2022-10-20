@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 375px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 12.5px;
+  padding-right: 12.5px;
+}
+
+@media screen and (min-width: $small) {
+  .container {
+    max-width: 576px;
+    padding: 0 18px;
+  }
+}
+@media screen and (min-width: $medium) {
+  .container {
+    max-width: 720px;
+    padding: 0 15px;
+  }
+}
+@media screen and (min-width: $large) {
+  .container {
+    max-width: 960px;
+    padding: 0 12px;
+  }
+}
+@media screen and (min-width: $extra_large) {
+  .container {
+    max-width: 1180px;
+    padding: 0 20px;
+  }
+}
