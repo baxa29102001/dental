@@ -116,5 +116,185 @@ header {
     gap: 13px;
   }
 }
+.hero {
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: 155% 95%;
+  background-position: right top;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+}
+.hero_slider_navigation {
+  display: flex;
+  gap: 6px;
+  padding-bottom: 60px;
+}
+.hero_slider_navigation_left, .hero_slider_navigation_right {
+  background-color: #ffd600;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hero_slider_navigation_left {
+  width: 26px;
+}
+
+@media screen and (min-width: 992px) {
+  .hero {
+    background-size: 100% 100%;
+  }
+  .hero_slider_navigation {
+    padding-bottom: 30px;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form_desc {
+  font-size: 18px;
+  width: 227px;
+  line-height: 25px;
+  text-align: center;
+  color: #272727;
+  margin-bottom: 21px;
+}
+.form_title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #272727;
+  margin-bottom: 25px;
+}
+.form_section {
+  background-color: #0055b8;
+}
+.form_section .dental_wrapper {
+  display: none;
+}
+.form_wrapper {
+  padding: 25px 11px;
+}
+.form_wrapper_title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  margin-bottom: 23px;
+}
+.form_wrapper_input input {
+  background-color: #0055b8;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 21px 20px;
+  width: 100%;
+  margin-bottom: 21px;
+  outline: none;
+  color: #fff;
+}
+.form_wrapper_input input::placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.form_wrapper_btn {
+  width: 100%;
+  background-color: #ffd600;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 17px 0;
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+  margin-bottom: 17px;
+}
+.form_wrapper_addtion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form_wrapper_addtion_title {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.form_wrapper_addtion_checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 41px;
+  height: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: #0055b8;
+  accent-color: #0055b8;
+}
+.form_wrapper_addtion_checkbox:checked::before {
+  content: url("../img/check.svg");
+}
+
+@media screen and (min-width: 992px) {
+  .form_desc {
+    display: none;
+  }
+  .form_title {
+    display: none;
+  }
+  .form_section {
+    margin-bottom: 40px;
+    background-color: transparent;
+  }
+  .form_section .dental {
+    display: flex;
+    align-items: flex-start;
+  }
+  .form_section .dental_wrapper {
+    display: flex;
+    width: 65%;
+  }
+  .form_section .dental_content {
+    background-color: #ffd600;
+    padding: 39px 33px 31px 33px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .form_section .dental_content img {
+    margin-bottom: 17px;
+  }
+  .form_section .dental_content h3 {
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 4px;
+    color: #272727;
+  }
+  .form_section .dental_content p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #272727;
+  }
+  .form_section .dental_brackets {
+    background-color: #ffe040;
+  }
+  .form_wrapper {
+    background-color: #0055b8;
+    border-radius: 5px;
+    position: relative;
+    top: -90px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

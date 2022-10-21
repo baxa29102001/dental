@@ -1,0 +1,165 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &_desc {
+    font-size: 18px;
+    width: 227px;
+    line-height: 25px;
+    text-align: center;
+    color: $black;
+    margin-bottom: 21px;
+  }
+
+  &_title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $black;
+    margin-bottom: 25px;
+  }
+  &_section {
+    background-color: $main_blue;
+
+    .dental {
+      &_wrapper {
+        display: none;
+      }
+    }
+  }
+
+  &_wrapper {
+    padding: 25px 11px;
+    &_title {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 42px;
+      color: #ffffff;
+      margin-bottom: 23px;
+    }
+
+    &_input input {
+      background-color: $main_blue;
+      border: 1px solid #ffffff;
+      border-radius: 5px;
+      padding: 21px 20px;
+      width: 100%;
+      margin-bottom: 21px;
+      outline: none;
+      color: #fff;
+
+      &::placeholder {
+        font-size: 14px;
+        line-height: 16px;
+
+        color: rgba(255, 255, 255, 0.5);
+      }
+    }
+
+    &_btn {
+      width: 100%;
+      background-color: $main_yellow;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      padding: 17px 0;
+      font-size: 18px;
+      line-height: 21px;
+      cursor: pointer;
+      margin-bottom: 17px;
+    }
+
+    &_addtion {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &_title {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #ffffff;
+      }
+
+      &_checkbox {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        width: 41px;
+        height: 30px;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+        background-color: $main_blue;
+        accent-color: $main_blue;
+
+        &:checked::before {
+          content: url("../img/check.svg");
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $large) {
+  .form {
+    &_desc {
+      display: none;
+    }
+
+    &_title {
+      display: none;
+    }
+    &_section {
+      margin-bottom: 40px;
+      background-color: transparent;
+      .dental {
+        display: flex;
+        align-items: flex-start;
+        &_wrapper {
+          display: flex;
+          width: 65%;
+        }
+
+        &_content {
+          background-color: $main_yellow;
+          padding: 39px 33px 31px 33px;
+          border-radius: 5px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          img {
+            margin-bottom: 17px;
+          }
+
+          h3 {
+            font-size: 18px;
+            line-height: 21px;
+            margin-bottom: 4px;
+            color: $black;
+          }
+          p {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 25px;
+            color: $black;
+          }
+        }
+
+        &_brackets {
+          background-color: #ffe040;
+        }
+      }
+    }
+
+    &_wrapper {
+      background-color: $main_blue;
+      border-radius: 5px;
+      position: relative;
+      top: -90px;
+    }
+  }
+}
