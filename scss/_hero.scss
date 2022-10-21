@@ -1,0 +1,41 @@
+.hero {
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: 155% 95%;
+  background-position: right top;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+
+  &_slider_navigation {
+    display: flex;
+    gap: 6px;
+    padding-bottom: 60px;
+
+    &_left,
+    &_right {
+      background-color: $main_yellow;
+      width: 44px;
+      height: 44px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    &_left {
+      width: 26px;
+    }
+  }
+}
+
+@media screen and (min-width: $large) {
+  .hero {
+    background-size: 100% 100%;
+
+    &_slider_navigation {
+      padding-bottom: 30px;
+    }
+  }
+}
