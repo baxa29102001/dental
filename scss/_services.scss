@@ -1,21 +1,20 @@
-
 .services {
   margin-top: 80px;
+  overflow-x: hidden;
 
   &_tooth {
-    width: 200px;
-    //   height: 240px;
-    margin-left: 37px;
-    margin-top: 25px;
+    width: 100%;
+
     background: #ffffff;
     box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     display: flex;
+    gap: 50px;
 
     &_qwerty {
       width: 66px;
       height: 240px;
-      background-color:#ffffff;
+      background-color: #ffffff;
       box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1);
       border-radius: 5px;
     }
@@ -30,6 +29,9 @@
     }
 
     &_dental {
+      background-color: #ffd600;
+      &_card {
+      }
       &_uch {
         font-weight: 500;
         font-size: 18px;
@@ -90,5 +92,4 @@
 }
 
 @media screen and (min-width: $small) {
-  
 }
