@@ -187,21 +187,19 @@ header {
 }
 #hero {
   width: 100%;
-  height: 131vh;
+  height: 100vh;
+  background-image: url("../img/herobg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: flex-end;
 }
 #hero .hero_items {
-  height: 100vh;
   padding: 0px 20px;
-  background-image: url("../img/hero.svg");
-  background-repeat: no-repeat;
   position: relative;
 }
 #hero .hero_items .phone_navigation {
   width: 100%;
-  height: 450px;
-  position: absolute;
-  top: -620px;
-  left: 0;
   background-color: #0055b8;
 }
 #hero .hero_items .phone_navigation ul {
@@ -209,8 +207,8 @@ header {
   list-style: none;
 }
 #hero .hero_items .phone_navigation ul li {
-  background: #0055B8;
-  border: 1px solid #FFD600;
+  background: #0055b8;
+  border: 1px solid #ffd600;
   padding: 23px 0px;
 }
 #hero .hero_items .phone_navigation ul li a {
@@ -219,7 +217,7 @@ header {
   font-size: 18px;
   line-height: 21px;
   text-transform: uppercase;
-  color: #FFD600;
+  color: #ffd600;
 }
 #hero .hero_items .phone_navigation ul li:hover {
   background-color: #ffd600;
@@ -236,10 +234,10 @@ header {
 }
 #hero .hero_items .phone_navigation .social ul li {
   border: none;
-  background-color: #0055B8;
+  background-color: #0055b8;
 }
 #hero .hero_items .phone_navigation .social ul li:hover a svg {
-  color: #FFD600;
+  color: #ffd600;
 }
 #hero .hero_items .active {
   transition: all 1s ease-in-out;
@@ -362,16 +360,23 @@ header {
   font-weight: 500;
   font-size: 36px;
   line-height: 42px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .container .Appointment_items_box form input {
   width: 100%;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 5px;
   background-color: transparent;
   padding: 21px 0px 20px 20px;
   margin-bottom: 12px;
-  color: #FFFFFF;
+  outline: none;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.container .Appointment_items_box form input::placeholder {
   font-weight: 300;
   font-size: 14px;
   line-height: 16px;
