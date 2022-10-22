@@ -1,0 +1,66 @@
+#review {
+    .review_items {
+        padding: 0px 23px;
+        margin-bottom: 70px;
+
+        .review_items_title {
+            text-align: center;
+            width: 84%;
+            margin: 0 auto 40px;
+            background-image: url("../img/Service_back.svg");
+            background-repeat: no-repeat;
+            background-size: 273px 135px;
+
+            h3 {
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 42px;
+                color: #272727;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 25px;
+                color: #4D4D4D;
+            }
+        }
+
+        .review_items_about {
+            .name {
+                padding: 15px 0px 13px 0px;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 21px;
+            }
+
+            .about {
+                padding: 0px 34px 63px 0px;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 25px;
+                color: #4D4D4D
+            }
+
+            #btn_feedback {
+                margin-left: 27px;
+                border: 2px solid #0055B8;
+                border-radius: 5px;
+                padding: 25px 76px;
+                background-color: #fff;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+                color: #4D4D4D;
+            }
+
+            #btn_feedback:hover {
+                transition: all 1s ease;
+                background-color: $main_blue;
+                color: #FFF;
+                cursor: pointer;
+            }
+        }
+    }
+}

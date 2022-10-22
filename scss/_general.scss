@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto';
+}
+
+hr {
+  width: 50px;
+  border: 1px solid $main_yellow;
+  margin: 16px auto;
 }
 
 .container {

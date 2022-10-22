@@ -1,0 +1,87 @@
+#service {
+    background: #fff;
+    .service_items {
+        margin-bottom: 70px;
+        padding: 0px 23px;
+
+        .service_items_content {
+            text-align: center;
+            margin-bottom: 32px;
+            background-image: url("../img/Service_back.svg");
+            background-size: 326px 155px;
+            background-repeat: no-repeat;
+            hr{
+                margin-top: 80px;
+            }
+
+            h3 {
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 42px;
+                margin-bottom: 13px;
+            }
+
+            p {
+                font-weight: 300;
+                font-size: 19px;
+                line-height: 25px;
+            }
+        }
+
+        .service_items_branch_card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .card_type {
+                width: 200px;
+                background-color: #fff;
+                border-radius: 5px;
+                box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1);
+
+                .card_type_img {
+                    padding: 28px 65px 13px 65px;
+                }
+
+                .card_type_contant {
+                    text-align: center;
+                    padding-bottom: 24px;
+                    margin-bottom: 24px;
+
+                    h4 {
+                        padding: 0px 61px 12px 61px;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 21px;
+                    }
+
+                    hr {
+                        width: 25px;
+                        margin: 0px auto 13px;
+                        border: 1px solid #0A60C3;
+                    }
+
+                    .line {
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 16px;
+                        text-decoration-line: line-through;
+                        color: rgba(0, 0, 0, 0.25);
+                    }
+
+                    p {
+                        margin-top: 3px;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #0A60C3;
+                    }
+                }
+            }
+
+            .odd{
+                width: 66px;
+                height: 269px;
+            }
+        }
+    }
+}

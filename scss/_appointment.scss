@@ -1,0 +1,98 @@
+.container {
+    padding: 0;
+
+    .Appointment_items {
+        &_card {
+            width: 25%;
+            background-color: $main_yellow;
+            
+            &_type {
+                &_content {
+                    h4 {
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #272727;
+                    }
+                }
+            }
+        }
+
+
+        &_box {
+            background-color: $main_blue;
+            border-radius: 5px;
+            color: #ffff;
+            padding: 0px 23px;
+
+            h3 {
+                padding: 23px 0px;
+                font-weight: 500;
+                font-size: 36px;
+                line-height: 42px;
+                color: #FFFFFF;
+            }
+
+            form {
+                input {
+                    width: 100%;
+                    border: 1px solid #FFFFFF;
+                    border-radius: 5px;
+                    background-color: transparent;
+                    padding: 21px 0px 20px 20px;
+                    margin-bottom: 12px;
+                    color: #FFFFFF;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: rgba(255, 255, 255, 0.5);
+                }
+
+                .btn_submit {
+                    width: 100%;
+                    padding: 17px 0px;
+                    margin-bottom: 17px;
+                    background-color: $main_yellow;
+                    border: none;
+                    border-radius: 5px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-align: center;
+                    color: #272727;
+                }
+
+                .btn_submit:hover {
+                    transition: all 1s ease;
+                    cursor: pointer;
+                    background-color: #ffd500bb;
+                }
+
+                .checkbox_div {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding-bottom: 25px;
+
+                    label {
+                        width: 79%;
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 21px;
+                    }
+
+                    .checkbox {
+                        height: 31px;
+                        width: 35px;
+                        padding: 31px;
+                        margin-top: 12px;
+                        background-color: transparent;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:$large) {}

@@ -11,13 +11,89 @@ header {
   display: flex;
   justify-content: space-between;
 
+  .contact {
+    &_wrapper {
+      &_phone {
+        div {
+          a {
+            text-decoration: none;
+            color: #272727;
+          }
+        }
+      }
+    }
+  }
+
+
+
   &_navigation,
   &_socials {
     display: none;
   }
+
+}
+
+@media screen and (min-width: $medium) {
+  header {
+    .header {
+      nav {
+        display: flex;
+      }
+
+      .header_socials{
+        display: flex;
+        gap: 13px;
+        list-style: none !important;
+
+      }
+
+      .header_burger_menu{
+        display: none;
+      }
+    }
+  }
 }
 
 @media screen and (min-width: $large) {
+  .contact {
+    display: block;
+
+    &_wrapper {
+      display: flex;
+      justify-content: space-between;
+      padding: 12px 0px;
+
+      a {
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        color: #272727;
+      }
+
+      &_phone {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+
+      &_time {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+
+        .Open {
+
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 16px;
+          color: #00B007;
+
+        }
+      }
+    }
+  }
+
   .header {
     &_burger_menu {
       display: none;
@@ -49,6 +125,7 @@ header {
     }
   }
 }
+
 @media screen and (min-width: $extra_large) {
   .contact {
     display: block;
@@ -56,22 +133,39 @@ header {
     &_wrapper {
       display: flex;
       justify-content: space-between;
+      padding: 12px 0px;
+
+      a {
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        color: #272727;
+      }
 
       &_phone {
         display: flex;
         align-items: center;
         gap: 20px;
+      }
 
-        p {
+      &_time {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+
+        .Open {
+
           font-weight: 500;
           font-size: 14px;
           line-height: 16px;
+          color: #00B007;
 
-          color: #272727;
         }
       }
     }
   }
+
   .header {
     &_burger_menu {
       display: none;

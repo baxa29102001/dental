@@ -1,0 +1,23 @@
+footer{
+    background-color: $main_blue;
+    .footer_items{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 23px 23px;
+
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 13px;
+
+            li:hover{
+                svg:hover{
+
+                    color: $main_yellow;   
+                }
+            }
+        }
+    }
+}

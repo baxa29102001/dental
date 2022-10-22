@@ -1,0 +1,32 @@
+#Location {
+    .location_items {
+        &_content {
+            text-align: center;
+            padding:0px 25px 0px 25px;
+            margin-bottom: 48px;
+
+            hr {
+                margin-top: 83px;
+            }
+
+            h3 {
+                margin-top: 16px;
+                margin-bottom: 16px;
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 42px;
+                color: #272727;
+            }
+            .p_div{
+                width: 92%;
+                margin: 0 auto;
+                p {
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 25px;
+                    color: #4D4D4D;
+                }
+            }
+        }
+    }
+}
