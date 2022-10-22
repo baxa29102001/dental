@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .container {
   max-width: 375px;
   width: 100%;
@@ -126,5 +130,691 @@ header {
   }
   .header_socials {
     gap: 13px;
+  }
+}
+.section_dental_one {
+  display: none;
+}
+.section_dental_tort {
+  display: none;
+}
+.section_dental_Appointment {
+  background: #0055b8;
+  border-radius: 5px;
+  margin-top: 55px;
+  padding: 15px 24px;
+}
+.section_dental_Appointment_center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 17px;
+}
+.section_dental_Appointment_center_pro {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  max-width: 260px;
+  color: #ffffff;
+}
+.section_dental_Appointment_one {
+  text-align: center;
+  padding: 14px 40px;
+  background: #ffd600;
+  border-radius: 5px;
+  max-width: 487px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 12.5px;
+  font-weight: 300;
+}
+.section_dental_Appointment_h2 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  padding: 25px 20px;
+  color: #ffffff;
+}
+.section_dental_Appointment_form {
+  text-align: center;
+}
+.section_dental_Appointment_form_input {
+  margin-top: 12.5px;
+}
+.section_dental_Appointment_form_name, .section_dental_Appointment_form_input {
+  padding: 21px 0 21px 20px;
+  color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  background: #0055b8;
+  border: 1.7px solid white;
+  width: 100%;
+  max-width: 487px;
+}
+.section_dental_first {
+  text-align: center;
+}
+.section_dental_first_honor {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #272727;
+}
+.section_dental_first_mi {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #272727;
+  margin-top: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .section_dental_first_honor, .section_dental_first_mi {
+    display: none;
+  }
+  .section_dental {
+    display: flex;
+  }
+  .section_dental_tort {
+    width: 269.71px;
+    height: 300px;
+    background: #ffe040;
+    border-radius: 5px;
+  }
+  .section_dental_tort_we {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    width: 180px;
+    margin: 0 auto;
+    color: #272727;
+  }
+  .section_dental_tort_prosth {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 144px;
+    color: #272727;
+  }
+  .section_dental_one {
+    background-image: url(../img/tort.svg);
+    background: #ffd600;
+    border-radius: 5px;
+    width: 269.71px;
+    height: 300px;
+  }
+  .section_dental_one_all {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    width: 204px;
+    margin: 0 auto;
+    color: #272727;
+  }
+  .section_dental_one_treatment {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 144px;
+    color: #272727;
+  }
+  .section_dental {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 70px;
+    justify-content: center;
+  }
+  .section_dental_Appointment {
+    background: #0055b8;
+    border-radius: 5px;
+    width: 485.48px;
+    height: 359px;
+    margin-top: -59px;
+  }
+  .section_dental_Appointment_center {
+    display: flex;
+    justify-content: space-around;
+    gap: 120px;
+    margin-top: 22px;
+  }
+  .section_dental_Appointment_center_pro {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    width: 260px;
+    color: #ffffff;
+  }
+  .section_dental_Appointment_h2 {
+    padding: 25px 20px;
+    color: white;
+  }
+  .section_dental_Appointment_one {
+    text-align: center;
+    padding: 14px 40px;
+    background: #ffd600;
+    border-radius: 5px;
+    width: 230px;
+    height: 55px;
+    margin-left: 15px;
+    margin-top: 12.5px;
+  }
+  .section_dental_Appointment_form_input {
+    margin-top: 12.5px;
+  }
+  .section_dental_Appointment_form_name, .section_dental_Appointment_form_input {
+    padding: 21px 270px 21px 20px;
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    margin-left: 15px;
+    background: #0055b8;
+    border: 1.7px solid white;
+  }
+  .section_dental_tort {
+    width: 269.71px;
+    height: 300px;
+    background: #ffe040;
+    border-radius: 5px;
+  }
+  .section_dental_tort_we {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    width: 180px;
+    margin: 0 auto;
+    color: #272727;
+  }
+  .section_dental_tort_prosth {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 144px;
+    color: #272727;
+  }
+  .section_dental_one {
+    background-image: url(../img/tort.svg);
+    background: #ffd600;
+    border-radius: 5px;
+    width: 269.71px;
+    height: 300px;
+  }
+  .section_dental_one_all {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    width: 204px;
+    margin: 0 auto;
+    color: #272727;
+  }
+  .section_dental_one_treatment {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 144px;
+    color: #272727;
+  }
+}
+@media screen and (min-width: 992px) {
+  .section_dental_first_honor, .section_dental_first_mi {
+    display: none;
+  }
+  .section_dental {
+    display: flex;
+  }
+  .section_dental_tort {
+    width: 269.71px;
+    height: 300px;
+    background: #ffe040;
+    border-radius: 5px;
+  }
+  .section_dental_tort_we {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    width: 180px;
+    margin: 0 auto;
+    color: #272727;
+  }
+  .section_dental_tort_prosth {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 144px;
+    color: #272727;
+  }
+  .section_dental_one {
+    background-image: url(../img/tort.svg);
+    background: #ffd600;
+    border-radius: 5px;
+    width: 269.71px;
+    height: 300px;
+  }
+  .section_dental_one_all {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    width: 204px;
+    margin: 0 auto;
+    color: #272727;
+  }
+  .section_dental_one_treatment {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 144px;
+    color: #272727;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_dental_first_honor, .section_dental_first_mi {
+    display: none;
+  }
+  .section_dental {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 70px;
+    justify-content: center;
+  }
+  .section_dental_Appointment {
+    background: #0055b8;
+    border-radius: 5px;
+    width: 485.48px;
+    height: 359px;
+    margin-top: -59px;
+  }
+  .section_dental_Appointment_center {
+    display: flex;
+    justify-content: space-around;
+    gap: 120px;
+    margin-top: 22px;
+  }
+  .section_dental_Appointment_center_pro {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    width: 260px;
+    color: #ffffff;
+  }
+  .section_dental_Appointment_h2 {
+    padding: 25px 20px;
+    color: white;
+  }
+  .section_dental_Appointment_one {
+    text-align: center;
+    padding: 14px 40px;
+    background: #ffd600;
+    border-radius: 5px;
+    width: 230px;
+    height: 55px;
+    margin-left: 15px;
+    margin-top: 12.5px;
+  }
+  .section_dental_Appointment_form_input {
+    margin-top: 12.5px;
+  }
+  .section_dental_Appointment_form_name, .section_dental_Appointment_form_input {
+    padding: 21px 270px 21px 20px;
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    margin-left: 15px;
+    background: #0055b8;
+    border: 1.7px solid white;
+  }
+  .section_dental_tort {
+    width: 269.71px;
+    height: 300px;
+    background: #ffe040;
+    border-radius: 5px;
+  }
+  .section_dental_tort_we {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    width: 180px;
+    margin: 0 auto;
+    color: #272727;
+  }
+  .section_dental_tort_prosth {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 144px;
+    color: #272727;
+  }
+  .section_dental_one {
+    background-image: url(../img/tort.svg);
+    background: #ffd600;
+    border-radius: 5px;
+    width: 269.71px;
+    height: 300px;
+  }
+  .section_dental_one_all {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    width: 204px;
+    margin: 0 auto;
+    color: #272727;
+  }
+  .section_dental_one_treatment {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 144px;
+    color: #272727;
+  }
+}
+.hero {
+  background-image: url(../img/rasm.svg);
+  height: 100vh;
+  background-position: right top;
+  background-size: 155% 100%;
+}
+
+.services {
+  margin-top: 80px;
+}
+.services_tooth {
+  width: 200px;
+  margin-left: 37px;
+  margin-top: 25px;
+  background: #ffffff;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex;
+}
+.services_tooth_qwerty {
+  width: 66px;
+  height: 240px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.services_tooth_hr {
+  width: 30px;
+  height: 0px;
+  text-align: center;
+  margin-left: 84px;
+  border: 2px solid #0a60c3;
+  margin-top: 13px;
+}
+.services_tooth_dental_uch {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 auto;
+  text-align: center;
+  color: #0a60c3;
+}
+.services_tooth_dental_besh {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  margin: 0 auto;
+  margin-top: 13px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.25);
+}
+.services_tooth_dental_img {
+  padding: 28px 66px;
+}
+.services_tooth_dental_p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  width: 79px;
+  margin: 0 auto;
+  margin-top: -25px;
+  color: #272727;
+}
+.services_provide {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  width: 289px;
+  margin: 0 auto;
+  text-align: center;
+  color: #4d4d4d;
+}
+.services_moon {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+.services_hrone {
+  width: 50px;
+  color: #ffd600;
+  border: 2px solid #ffd600;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 576px) {
+  .modern {
+    margin-top: 70px;
+  }
+  .modern_items {
+    margin-top: 30px;
+  }
+  .modern_items_list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .modern_items_list_h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    width: 172px;
+    text-align: center;
+    color: #000000;
+  }
+  .modern_img {
+    text-align: center;
+  }
+  .modern_desc_even {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    width: 335px;
+    margin: 0 auto;
+    color: #000000;
+  }
+  .modern_desc_modern {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    width: 330px;
+    color: #272727;
+    margin: 0 auto;
+  }
+  .modern_desc_hr {
+    width: 50px;
+    border: 0.5px solid #ffd600;
+    margin-left: 105px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .professional {
+    margin-top: 88px;
+  }
+  .professional_desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 145px;
+  }
+  .professional_team {
+    width: 50px;
+    margin: 0 auto;
+    border: 1px solid #ffd600;
+  }
+  .professional_team_vibe {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #272727;
+  }
+  .professional_team_vibe_dental {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    width: 320px;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+    color: #4d4d4d;
+    margin-top: 13px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .quality {
+    margin-top: 50px;
+  }
+  .quality_items_href {
+    margin-top: -50px;
+  }
+  .quality_items_href a {
+    text-decoration: none;
+    padding: 25px 42px;
+    background-color: #0055b8;
+    color: white;
+    border-radius: 5px;
+    margin-left: 250px;
+  }
+  .quality_items_imzo {
+    margin-left: 110px;
+    margin-top: 10px;
+  }
+  .quality_items_about {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    width: 337px;
+    color: #000000;
+    margin: 0 auto;
+  }
+  .quality_items_are {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    width: 272px;
+    color: #272727;
+    margin-left: 100px;
+  }
+  .quality_items_green {
+    width: 50px;
+    margin-left: 100px;
+    border: 1px solid #ffd600;
+  }
+  .quality_items_img {
+    margin-left: 80px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .last {
+    margin-top: 70px;
+  }
+  .last_give {
+    margin-top: 50px;
+    margin-left: 70px;
+  }
+  .last_give a {
+    text-decoration: none;
+    padding: 25px 76px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: #000000;
+  }
+  .last a:hover {
+    background-color: #0055b8;
+    color: black;
+    transition: 1s ease;
+    color: white;
+  }
+  .last_five {
+    width: 50px;
+    margin: 0 auto;
+    border: 1px solid #ffd600;
+  }
+  .last_five_from {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin: 0 auto;
+    width: 290px;
+    color: #272727;
+  }
+  .last_five_from_the {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    width: 281px;
+    margin: 0 auto;
+    text-align: center;
+    color: #4d4d4d;
+  }
+  .last_box_nice_lorem {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 120px;
+    width: 306px;
+    color: #4d4d4d;
+  }
+  .last_box_nice_ivan {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 120px;
+    color: #000000;
+  }
+  .last_box_nice_img {
+    margin-left: 120px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .location {
+    margin-top: 83px;
+  }
+  .location_rasm {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .location_work {
+    width: 50px;
+    border: 1px solid #ffd600;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .location_work_and {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    width: 361px;
+    margin: 0 auto;
+    color: #272727;
+  }
+  .location_work_and_link {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    width: 320px;
+    text-align: center;
+    margin: 0 auto;
+    color: #4d4d4d;
   }
 }/*# sourceMappingURL=main.css.map */

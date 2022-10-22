@@ -1,0 +1,53 @@
+@media screen and (min-width: $small) {
+  .modern {
+    margin-top: 70px;
+    &_items {
+      margin-top: 30px;
+      &_list {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        &_h2 {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 21px;
+           width: 172px;
+           text-align: center;
+          color: #000000;
+        }
+      }
+    }
+
+    &_img {
+      // margin: 0 auto;
+      text-align: center;
+    }
+
+    &_desc {
+      &_even {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 25px;
+        width: 335px;
+        margin: 0 auto;
+        color: #000000;
+      }
+
+      &_modern {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+        width: 330px;
+        color: #272727;
+        margin: 0 auto;
+      }
+
+      &_hr {
+        width: 50px;
+        border: 0.5px solid #ffd600;
+        margin-left: 105px;
+      }
+    }
+  }
+}

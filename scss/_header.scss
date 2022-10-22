@@ -4,12 +4,18 @@
 
 header {
   background-color: $main_blue;
+  // width: 1100px;
+  // display: flex;
+  // margin: 0 auto;
+  // border-radius: 5px;
+  // margin-top: 16px;
 }
 
 .header {
   padding: 23px 20px;
   display: flex;
   justify-content: space-between;
+  
 
   &_navigation,
   &_socials {
@@ -19,6 +25,7 @@ header {
 
 @media screen and (min-width: $large) {
   .header {
+
     &_burger_menu {
       display: none;
     }
@@ -50,6 +57,14 @@ header {
   }
 }
 @media screen and (min-width: $extra_large) {
+
+  .header{
+  //   width: 1100px;
+  // display: flex;
+  // margin: 0 auto;
+  // border-radius: 5px;
+  // margin-top: 16px;
+  }
   .contact {
     display: block;
 
@@ -62,6 +77,10 @@ header {
         display: flex;
         align-items: center;
         gap: 5px;
+      
+      
+        
+        
       }
 
       &_desc_green{
@@ -89,6 +108,7 @@ header {
     }
   }
   .header {
+
     &_burger_menu {
       display: none;
     }

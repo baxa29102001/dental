@@ -1,0 +1,62 @@
+@media screen and (min-width: $small) {
+  .quality {
+    margin-top: 50px;
+    &_items {
+
+         &_href{
+            margin-top: -50px;
+         }
+
+        &_href a{
+            text-decoration: none;
+            padding: 25px 42px;
+            background-color: #0055b8;
+            color: white;
+            // margin: 0 auto;
+            border-radius: 5px;
+            // text-align: center;
+            margin-left: 250px;
+            
+
+        }
+
+
+      &_imzo{
+        margin-left: 110px;
+        margin-top: 10px;
+        // text-align: center;
+        // margin: 0 auto;
+      }
+
+      &_about {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 25px;
+        width: 337px;
+        color: #000000;
+        margin: 0 auto; 
+      }
+
+      &_are {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+        width: 272px;
+        color: #272727;
+        // margin: 0 auto;
+        margin-left: 100px;
+      }
+
+      &_green {
+        width: 50px;
+        margin-left: 100px;
+        border: 1px solid #ffd600;
+      }
+
+      &_img {
+        // margin: 0 auto;
+        margin-left: 80px;
+      }
+    }
+  }
+}
