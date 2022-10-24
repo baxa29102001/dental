@@ -1,0 +1,102 @@
+.bg_technology {
+  margin-bottom: 50px;
+  background-image: url("/img/technology.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.technology {
+  background-image: url("/img/_D\ _P.png");
+  background-repeat: no-repeat;
+  background-position: left 12% top 35%;
+  padding-top: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .hr_line {
+    align-self: flex-start;
+    @include hr_line($align: start, $margin: 20px);
+  }
+
+  &_title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: $black;
+    margin-bottom: 10px;
+  }
+  &_desc {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  &_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &_cards_item {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    gap: 31px;
+    margin-bottom: 17px;
+    &_content {
+      &_title.active {
+        width: 164px;
+      }
+      &_desc {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $large) {
+  .bg_technology {
+    background-size: 50% 100%;
+    background-position: left -140px top;
+  }
+  .technology {
+    .hr_line {
+      align-self: center;
+      @include hr_line($align: start, $margin: 10px);
+    }
+    padding-top: 0%;
+    align-items: flex-end;
+
+    &_title {
+      width: 60%;
+    }
+    &_desc {
+      width: 60%;
+    }
+    &_cards {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    &_cards_item {
+      width: 60%;
+      align-self: flex-end;
+      &_content {
+        &_title.active {
+          width: 100%;
+        }
+        &_title {
+          width: 100%;
+          margin-bottom: 5px;
+        }
+        &_desc {
+          display: block;
+        }
+      }
+    }
+  }
+}

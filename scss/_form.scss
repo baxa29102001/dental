@@ -104,6 +104,13 @@
 }
 
 @media screen and (min-width: $large) {
+  .form_section {
+    .container {
+      max-width: 100%;
+      padding: 0;
+    }
+  }
+
   .form {
     &_desc {
       display: none;
@@ -163,3 +170,5 @@
     }
   }
 }
+
+

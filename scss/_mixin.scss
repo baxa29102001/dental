@@ -1,0 +1,15 @@
+@mixin hr_line(
+  $margin: 13px,
+  $bgColor: $main_yellow,
+  $align: center,
+  $width: 50px
+) {
+  width: $width;
+  height: 3px;
+  background-color: $bgColor;
+  @if ($align == "center") {
+    margin: $margin auto;
+  } @else {
+    margin: $margin 0;
+  }
+}
