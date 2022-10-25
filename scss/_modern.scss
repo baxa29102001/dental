@@ -1,53 +1,102 @@
-@media screen and (min-width: $small) {
-  .modern {
-    margin-top: 70px;
-    &_items {
-      margin-top: 30px;
-      &_list {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+.modern {
+  margin-top: 70px;
+  &_items {
+    // display: flex;
+    margin-top: 30px;
+    &_list {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
 
-        &_h2 {
-          font-weight: 700;
-          font-size: 18px;
-          line-height: 21px;
-           width: 172px;
-           text-align: center;
-          color: #000000;
-        }
-      }
-    }
-
-    &_img {
-      // margin: 0 auto;
-      text-align: center;
-    }
-
-    &_desc {
-      &_even {
-        font-weight: 300;
+      &_h2 {
+        font-weight: 700;
         font-size: 18px;
-        line-height: 25px;
-        width: 335px;
-        margin: 0 auto;
+        line-height: 21px;
+        max-width: 170px; 
+        text-align: center;
         color: #000000;
       }
+    }
+  }
 
-      &_modern {
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 42px;
-        width: 330px;
-        color: #272727;
-        margin: 0 auto;
-      }
+  &_img {
+    // margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
 
-      &_hr {
-        width: 50px;
-        border: 0.5px solid #ffd600;
-        margin-left: 105px;
+  &_desc {
+    &_even {
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 25px;
+      max-width: 335px;
+      margin: 0 auto;
+      margin-top: 1rem;
+      color: #000000;
+    }
+
+    &_modern {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 42px;
+      max-width: 330px;
+      color: #272727;
+      margin: 0 auto;
+      margin-top: 16px;
+    }
+
+    &_hr {
+      width: 50px;
+      margin-top: 45px;
+      border: 0.5px solid #ffd600;
+      margin-left: 15px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: $large) {
+  .modern{
+    display: flex;
+
+    &_items{
+      flex-direction: row;
+    }
+
+    &_desc{
+      &_even{
+        max-width: 538px;
+        margin-left: 10px;
       }
+      &_modern{
+        max-width: 633px;
+        margin-left: 10px;
+
+      }
+      &_hr{
+        margin-top: -0px;
+      }
+    }
+
+
+    &_gray{
+      margin-left: -44px;
+    }
+    &_img{
+      display: none;
     }
   }
 }

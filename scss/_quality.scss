@@ -1,10 +1,15 @@
-@media screen and (min-width: $small) {
+
   .quality {
     margin-top: 50px;
     &_items {
 
          &_href{
-            margin-top: -50px;
+          display: flex;
+          gap: 36px;
+          margin-top: 28px;
+          align-items: center;
+          margin-bottom: 30px;
+            // margin-top: -50px;
          }
 
         &_href a{
@@ -15,15 +20,15 @@
             // margin: 0 auto;
             border-radius: 5px;
             // text-align: center;
-            margin-left: 250px;
+            // margin-left: 250px;
             
 
         }
 
 
       &_imzo{
-        margin-left: 110px;
-        margin-top: 10px;
+        // margin-left: 110px;
+        margin-top: 20px;
         // text-align: center;
         // margin: 0 auto;
       }
@@ -32,7 +37,8 @@
         font-weight: 300;
         font-size: 18px;
         line-height: 25px;
-        width: 337px;
+        max-width: 337px;
+        margin-top: 55px;
         color: #000000;
         margin: 0 auto; 
       }
@@ -41,22 +47,69 @@
         font-weight: 500;
         font-size: 36px;
         line-height: 42px;
-        width: 272px;
+        max-width: 272px;
+        margin-top: 16px;
         color: #272727;
         // margin: 0 auto;
-        margin-left: 100px;
+        // margin-left: 100px;
       }
 
       &_green {
         width: 50px;
-        margin-left: 100px;
+        margin-top: 21px;
         border: 1px solid #ffd600;
       }
 
       &_img {
+        max-width: 455px;
+        width: 100%;
         // margin: 0 auto;
-        margin-left: 80px;
+        // margin-left: 80px;
       }
     }
   }
-}
+
+  @media screen and (min-width: $large){
+    .quality{
+      display: flex;
+      justify-content: space-between;
+      
+      &_items{
+
+        &_href a{
+          padding: 25px 88px;
+        }
+
+        &_imzo{
+          margin-left: 70px;
+        }
+
+        &_section{
+          background-image: url(../img/green.svg); 
+          height: 100vh;
+          background-repeat: no-repeat;
+          width: 40%;
+          margin-top: 30px;
+          
+        }
+
+        &_rasm{
+          
+        }
+        &_about{
+          max-width: 485px;
+        }
+
+        &_green{
+          text-align: center;
+          // margin: 0 auto;
+        }
+        &_section{
+          //  margin-left: 100px;
+        }
+        &_img{
+          display: none;
+        }
+      }
+    }
+  }

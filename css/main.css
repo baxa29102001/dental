@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -28,13 +29,13 @@ body {
     padding: 0 15px;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
   .container {
     max-width: 960px;
     padding: 0 12px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .container {
     max-width: 1180px;
     padding: 0 20px;
@@ -57,7 +58,7 @@ header {
   display: none;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
   .header_burger_menu {
     display: none;
   }
@@ -65,6 +66,10 @@ header {
     display: flex;
     align-items: center;
     list-style: none;
+    gap: 100px;
+  }
+  .header_navigation_item, .header_socials_item {
+    justify-content: space-between;
   }
   .header_navigation {
     gap: 34px;
@@ -75,12 +80,13 @@ header {
     line-height: 21px;
     color: #fff;
     text-decoration: none;
+    margin-left: 0px;
   }
   .header_socials {
     gap: 13px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .contact {
     display: block;
   }
@@ -189,6 +195,7 @@ header {
   border: 1.7px solid white;
   width: 100%;
   max-width: 487px;
+  outline: auto;
 }
 .section_dental_first {
   text-align: center;
@@ -209,156 +216,31 @@ header {
   margin-top: 22px;
 }
 
-@media screen and (min-width: 768px) {
-  .section_dental_first_honor, .section_dental_first_mi {
-    display: none;
-  }
+@media screen and (min-width: 1024px) {
   .section_dental {
     display: flex;
-  }
-  .section_dental_tort {
-    width: 269.71px;
-    height: 300px;
-    background: #ffe040;
-    border-radius: 5px;
-  }
-  .section_dental_tort_we {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 25px;
-    width: 180px;
-    margin: 0 auto;
-    color: #272727;
-  }
-  .section_dental_tort_prosth {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    margin-top: 144px;
-    color: #272727;
-  }
-  .section_dental_one {
-    background-image: url(../img/tort.svg);
-    background: #ffd600;
-    border-radius: 5px;
-    width: 269.71px;
-    height: 300px;
-  }
-  .section_dental_one_all {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 25px;
-    width: 204px;
-    margin: 0 auto;
-    color: #272727;
-  }
-  .section_dental_one_treatment {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    margin-top: 144px;
-    color: #272727;
-  }
-  .section_dental {
-    display: flex;
-    margin: 0 auto;
-    margin-top: 70px;
-    justify-content: center;
   }
   .section_dental_Appointment {
-    background: #0055b8;
-    border-radius: 5px;
-    width: 485.48px;
-    height: 359px;
-    margin-top: -59px;
-  }
-  .section_dental_Appointment_center {
-    display: flex;
-    justify-content: space-around;
-    gap: 120px;
-    margin-top: 22px;
-  }
-  .section_dental_Appointment_center_pro {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 21px;
-    width: 260px;
-    color: #ffffff;
-  }
-  .section_dental_Appointment_h2 {
-    padding: 25px 20px;
-    color: white;
+    margin-top: -70px;
+    max-width: 485px;
   }
   .section_dental_Appointment_one {
-    text-align: center;
-    padding: 14px 40px;
     background: #ffd600;
     border-radius: 5px;
-    width: 230px;
-    height: 55px;
-    margin-left: 15px;
-    margin-top: 12.5px;
-  }
-  .section_dental_Appointment_form_input {
-    margin-top: 12.5px;
-  }
-  .section_dental_Appointment_form_name, .section_dental_Appointment_form_input {
-    padding: 21px 270px 21px 20px;
-    color: rgba(255, 255, 255, 0.5);
-    border-radius: 5px;
-    margin-left: 15px;
-    background: #0055b8;
-    border: 1.7px solid white;
-  }
-  .section_dental_tort {
-    width: 269.71px;
-    height: 300px;
-    background: #ffe040;
-    border-radius: 5px;
-  }
-  .section_dental_tort_we {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 25px;
-    width: 180px;
-    margin: 0 auto;
-    color: #272727;
-  }
-  .section_dental_tort_prosth {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    margin-top: 144px;
-    color: #272727;
+    margin-right: 200px;
+    width: 206px;
   }
   .section_dental_one {
-    background-image: url(../img/tort.svg);
-    background: #ffd600;
-    border-radius: 5px;
-    width: 269.71px;
-    height: 300px;
+    display: block;
   }
-  .section_dental_one_all {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 25px;
-    width: 204px;
-    margin: 0 auto;
-    color: #272727;
-  }
-  .section_dental_one_treatment {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    margin-top: 144px;
-    color: #272727;
+  .section_dental_tort {
+    display: block;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
+  .green {
+    margin-top: 150px;
+  }
   .section_dental_first_honor, .section_dental_first_mi {
     display: none;
   }
@@ -411,7 +293,7 @@ header {
     color: #272727;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .section_dental_first_honor, .section_dental_first_mi {
     display: none;
   }
@@ -425,7 +307,6 @@ header {
     background: #0055b8;
     border-radius: 5px;
     width: 485.48px;
-    height: 359px;
     margin-top: -59px;
   }
   .section_dental_Appointment_center {
@@ -517,8 +398,51 @@ header {
   height: 100vh;
   background-position: right top;
   background-size: 155% 100%;
+  background-repeat: no-repeat;
 }
 
+@media screen and (min-width: 1024px) {
+  .hero {
+    display: flex;
+    background-image: url(../img/rasm.svg);
+    height: 100vh;
+    background-position: left top;
+    background-size: 125% 100%;
+  }
+  .hero a {
+    text-decoration: none;
+  }
+  .hero_section_tech {
+    margin-top: 229px;
+    max-width: 360зч;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #272727;
+  }
+  .hero_section_tech_get {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #272727;
+  }
+  .hero_section_tech_get_div {
+    margin-top: 37px;
+  }
+  .hero_section_tech_get_div_get {
+    padding: 24px 115px;
+    background: #0055b8;
+    border-radius: 5px;
+    color: white;
+  }
+}
+@media screen and (max-width: 576px) {
+  .hero {
+    display: none;
+  }
+}
 .services {
   margin-top: 80px;
 }
@@ -530,6 +454,7 @@ header {
   box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   display: flex;
+  gap: 90px;
 }
 .services_tooth_qwerty {
   width: 66px;
@@ -599,222 +524,371 @@ header {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 576px) {
-  .modern {
-    margin-top: 70px;
+@media screen and (min-width: 1024px) {
+  .services {
+    background-image: url(../img/dp.svg);
+    background-repeat: no-repeat;
+    width: 100%;
   }
-  .modern_items {
-    margin-top: 30px;
+  .services_tooth_dental {
+    width: 200px;
+    background: #ffffff;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
   }
-  .modern_items_list {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  .services_moon {
+    margin-top: 1rem;
   }
-  .modern_items_list_h2 {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    width: 172px;
-    text-align: center;
-    color: #000000;
-  }
-  .modern_img {
-    text-align: center;
-  }
-  .modern_desc_even {
+  .services_provide {
+    width: 744px;
     font-weight: 300;
     font-size: 18px;
     line-height: 25px;
-    width: 335px;
-    margin: 0 auto;
-    color: #000000;
-  }
-  .modern_desc_modern {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 42px;
-    width: 330px;
-    color: #272727;
-    margin: 0 auto;
-  }
-  .modern_desc_hr {
-    width: 50px;
-    border: 0.5px solid #ffd600;
-    margin-left: 105px;
-  }
-}
-@media screen and (min-width: 576px) {
-  .professional {
-    margin-top: 88px;
-  }
-  .professional_desc {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 145px;
-  }
-  .professional_team {
-    width: 50px;
-    margin: 0 auto;
-    border: 1px solid #ffd600;
-  }
-  .professional_team_vibe {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    color: #272727;
-  }
-  .professional_team_vibe_dental {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 25px;
-    width: 320px;
-    text-align: center;
-    margin: 0 auto;
     text-align: center;
     color: #4d4d4d;
-    margin-top: 13px;
+  }
+  .cc {
+    margin-top: 2rem;
   }
 }
-@media screen and (min-width: 576px) {
-  .quality {
-    margin-top: 50px;
+.modern {
+  margin-top: 70px;
+}
+.modern_items {
+  margin-top: 30px;
+}
+.modern_items_list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.modern_items_list_h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  max-width: 170px;
+  text-align: center;
+  color: #000000;
+}
+.modern_img {
+  text-align: center;
+  width: 100%;
+}
+.modern_desc_even {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  max-width: 335px;
+  margin: 0 auto;
+  margin-top: 1rem;
+  color: #000000;
+}
+.modern_desc_modern {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  max-width: 330px;
+  color: #272727;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+.modern_desc_hr {
+  width: 50px;
+  margin-top: 45px;
+  border: 0.5px solid #ffd600;
+  margin-left: 15px;
+}
+
+@media screen and (min-width: 1024px) {
+  .modern {
+    display: flex;
   }
-  .quality_items_href {
-    margin-top: -50px;
+  .modern_items {
+    flex-direction: row;
   }
-  .quality_items_href a {
-    text-decoration: none;
-    padding: 25px 42px;
-    background-color: #0055b8;
-    color: white;
-    border-radius: 5px;
-    margin-left: 250px;
+  .modern_desc_even {
+    max-width: 538px;
+    margin-left: 10px;
   }
-  .quality_items_imzo {
-    margin-left: 110px;
+  .modern_desc_modern {
+    max-width: 633px;
+    margin-left: 10px;
+  }
+  .modern_desc_hr {
+    margin-top: 0px;
+  }
+  .modern_gray {
+    margin-left: -44px;
+  }
+  .modern_img {
+    display: none;
+  }
+}
+.professional {
+  margin-top: 88px;
+}
+.professional_desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 75px;
+}
+.professional_team {
+  width: 50px;
+  margin: 0 auto;
+  border: 1px solid #ffd600;
+}
+.professional_team_vibe {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #272727;
+}
+.professional_team_vibe_dental {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  width: 320px;
+  text-align: center;
+  margin: 0 auto;
+  text-align: center;
+  color: #4d4d4d;
+  margin-top: 13px;
+}
+
+@media screen and (min-width: 1024px) {
+  .professional_desc {
+    max-width: 1024px;
+    display: flex;
+    margin-left: -40px;
+    margin-top: 21px;
+  }
+  .professional_desc_anna {
+    margin-left: -50px;
+  }
+  .professional_desc_anna_jorj {
+    margin-left: -50px;
+  }
+  .professional_desc_anna_are {
+    margin-left: -50px;
+  }
+  .professional_desc_anna_and {
+    display: none;
+  }
+  .professional_team_vibe {
     margin-top: 10px;
   }
-  .quality_items_about {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 25px;
-    width: 337px;
-    color: #000000;
-    margin: 0 auto;
-  }
-  .quality_items_are {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 42px;
-    width: 272px;
-    color: #272727;
-    margin-left: 100px;
-  }
-  .quality_items_green {
-    width: 50px;
-    margin-left: 100px;
-    border: 1px solid #ffd600;
-  }
-  .quality_items_img {
-    margin-left: 80px;
+  .professional_team_vibe_dental {
+    width: 933px;
   }
 }
-@media screen and (min-width: 576px) {
-  .last {
-    margin-top: 70px;
+.quality {
+  margin-top: 50px;
+}
+.quality_items_href {
+  display: flex;
+  gap: 36px;
+  margin-top: 28px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.quality_items_href a {
+  text-decoration: none;
+  padding: 25px 42px;
+  background-color: #0055b8;
+  color: white;
+  border-radius: 5px;
+}
+.quality_items_imzo {
+  margin-top: 20px;
+}
+.quality_items_about {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  max-width: 337px;
+  margin-top: 55px;
+  color: #000000;
+  margin: 0 auto;
+}
+.quality_items_are {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  max-width: 272px;
+  margin-top: 16px;
+  color: #272727;
+}
+.quality_items_green {
+  width: 50px;
+  margin-top: 21px;
+  border: 1px solid #ffd600;
+}
+.quality_items_img {
+  max-width: 455px;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .quality {
+    display: flex;
+    justify-content: space-between;
   }
-  .last_give {
-    margin-top: 50px;
+  .quality_items_href a {
+    padding: 25px 88px;
+  }
+  .quality_items_imzo {
     margin-left: 70px;
   }
-  .last_give a {
+  .quality_items_section {
+    background-image: url(../img/green.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 40%;
+    margin-top: 30px;
+  }
+  .quality_items_about {
+    max-width: 485px;
+  }
+  .quality_items_green {
+    text-align: center;
+  }
+  .quality_items_img {
+    display: none;
+  }
+}
+.last {
+  margin-top: 70px;
+}
+.last_give {
+  margin-top: 50px;
+  margin-left: 25px;
+}
+.last_give a {
+  text-decoration: none;
+  padding: 25px 76px 26px 75px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  color: #000000;
+}
+.last a:hover {
+  background-color: #0055b8;
+  color: black;
+  transition: 1s ease;
+  color: white;
+}
+.last_five {
+  width: 50px;
+  margin: 0 auto;
+  border: 1px solid #ffd600;
+}
+.last_five_from {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin: 0 auto;
+  width: 290px;
+  color: #272727;
+}
+.last_five_from_the {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  width: 281px;
+  margin: 0 auto;
+  text-align: center;
+  color: #4d4d4d;
+}
+.last_box_nice_lorem {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  margin-left: 25px;
+  width: 306px;
+  color: #4d4d4d;
+}
+.last_box_nice_ivan {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 25px;
+  color: #000000;
+}
+.last_box_nice_img {
+  margin-left: 25px;
+  margin-top: 43px;
+}
+
+@media screen and (min-width: 1024px) {
+  .last_feedback {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .last_feedback a {
     text-decoration: none;
-    padding: 25px 76px;
+    padding: 25px 76px 26px 75px;
     border: 1px solid blue;
     border-radius: 5px;
     color: #000000;
   }
-  .last a:hover {
+  .last_feedback a a:hover {
     background-color: #0055b8;
     color: black;
     transition: 1s ease;
     color: white;
   }
-  .last_five {
-    width: 50px;
+  .last_give {
+    display: none;
+  }
+  .last_box {
+    display: flex;
     margin: 0 auto;
-    border: 1px solid #ffd600;
+    margin-left: -30px;
   }
   .last_five_from {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    margin: 0 auto;
-    width: 290px;
-    color: #272727;
+    width: 500px;
   }
   .last_five_from_the {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 25px;
-    width: 281px;
-    margin: 0 auto;
-    text-align: center;
-    color: #4d4d4d;
-  }
-  .last_box_nice_lorem {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 25px;
-    margin-left: 120px;
-    width: 306px;
-    color: #4d4d4d;
-  }
-  .last_box_nice_ivan {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 21px;
-    margin-left: 120px;
-    color: #000000;
-  }
-  .last_box_nice_img {
-    margin-left: 120px;
+    width: 483px;
   }
 }
-@media screen and (min-width: 576px) {
-  .location {
-    margin-top: 83px;
-  }
-  .location_rasm {
-    margin: 0 auto;
-    text-align: center;
-  }
-  .location_work {
-    width: 50px;
-    border: 1px solid #ffd600;
-    text-align: center;
-    margin: 0 auto;
-  }
-  .location_work_and {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    width: 361px;
-    margin: 0 auto;
-    color: #272727;
-  }
-  .location_work_and_link {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 25px;
-    width: 320px;
-    text-align: center;
-    margin: 0 auto;
-    color: #4d4d4d;
-  }
+.location {
+  margin-top: 83px;
+}
+.location_rasm {
+  margin: 0 auto;
+  text-align: center;
+}
+.location_work {
+  width: 50px;
+  border: 1px solid #ffd600;
+  text-align: center;
+  margin: 0 auto;
+}
+.location_work_and {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  width: 361px;
+  margin: 0 auto;
+  color: #272727;
+}
+.location_work_and_link {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  width: 320px;
+  text-align: center;
+  margin: 0 auto;
+  color: #4d4d4d;
+}
+
+.map {
+  width: 100%;
+  margin-top: 14px;
+  margin-bottom: 50px;
+  height: 205px;
 }/*# sourceMappingURL=main.css.map */
