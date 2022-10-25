@@ -1,4 +1,4 @@
-@media screen and (min-width: $small) {
+// @media screen and (min-width: $small) {
   .location {
     margin-top: 83px;
 
@@ -33,4 +33,10 @@
       }
     }
   }
-}
+  .map {
+    width: 100%;
+    margin-top: 14px;
+    margin-bottom: 50px;
+    height: 205px;
+  }
+// }

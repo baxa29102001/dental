@@ -4,8 +4,8 @@
   padding: 0;
 }
 
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -16,8 +16,18 @@ body{
   padding-right: 12.5px;
 }
 
+.container-fluid {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 @media screen and (min-width: $small) {
   .container {
+    max-width: 576px;
+    padding: 0 18px;
+  }
+
+  .container-fluid {
     max-width: 576px;
     padding: 0 18px;
   }
@@ -27,15 +37,30 @@ body{
     max-width: 720px;
     padding: 0 15px;
   }
+
+  .container-fluid {
+    max-width: 720px;
+    padding: 0 15px;
+  }
 }
 @media screen and (min-width: $large) {
   .container {
     max-width: 960px;
     padding: 0 12px;
   }
+
+  .container-fluid {
+    max-width: 100%;
+    padding: 0;
+  }
 }
 @media screen and (min-width: $extra_large) {
   .container {
+    max-width: 1180px;
+    padding: 0 20px;
+  }
+
+  .container-fluid {
     max-width: 1180px;
     padding: 0 20px;
   }

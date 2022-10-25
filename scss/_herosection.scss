@@ -1,29 +1,63 @@
-.hero{
-    background-image: url(../img/rasm.svg);
-    height: 100vh;
-    background-position: right top;
-    background-size: 155% 100%;
+.hero {
+  background-image: url(../img/rasm.svg);
+  height: 100vh;
+  background-position: right top;
+  background-size: 155% 100%;
+  background-repeat: no-repeat;
+  // margin: 0 auto;
 }
 
+@media screen and (min-width: $large) {
+  .hero {
+    display: flex;
+    background-image: url(../img/rasm.svg);
+    height: 100vh;
+    background-position: left top;
+    background-size: 125% 100%;
+    // max-width: 1200px;
+
+    a{
+      text-decoration: none;
+    }
 
 
 
+    &_section {
+      &_tech {
+        margin-top: 229px;
+        max-width: 360зч;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #272727;
 
+        &_get {
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 56px;
+          text-transform: uppercase;
+          margin-top: 10px;
+          color: #272727;
 
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: $small){
-  .hero{
-     
+          &_div {
+            margin-top: 37px;
+            &_get {
+              padding: 24px 115px;
+              background: #0055b8;
+              border-radius: 5px;
+              color: white;
+            
+            }
+           
+          }
+        }
+      }
+    }
   }
-    
+}
+
+@media screen and (max-width: $small) {
+  .hero {
+    display: none;
+  }
 }

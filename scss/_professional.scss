@@ -1,37 +1,85 @@
-@media screen and (min-width: $small) {
-  .professional {
-    margin-top: 88px;
-      
-    &_desc{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 145px;
-    }
-  
+.professional {
+  margin-top: 88px;
+    
+  &_desc{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 75px;
+  }
 
-    &_team {
-      width: 50px;
-      margin: 0 auto;
-      border: 1px solid #ffd600;
 
-      &_vibe {
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 42px;
+  &_team {
+    width: 50px;
+    margin: 0 auto;
+    border: 1px solid #ffd600;
+
+    &_vibe {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center;
+      color: #272727;
+
+      &_dental {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 25px;
+        width: 320px;
         text-align: center;
-        color: #272727;
+        margin: 0 auto;
+        text-align: center;
+        color: #4d4d4d;
+        margin-top: 13px;
+      }
+    }
+  }
+}
 
-        &_dental {
-          font-weight: 300;
-          font-size: 18px;
-          line-height: 25px;
-          width: 320px;
-          text-align: center;
-          margin: 0 auto;
-          text-align: center;
-          color: #4d4d4d;
-          margin-top: 13px;
+
+
+
+
+
+
+
+
+@media screen and (min-width: $large) {
+  .professional{
+    // margin: 0 auto;
+
+    
+    
+
+
+    &_desc{
+      max-width: 1024px;
+      display: flex;
+      margin-left: -40px;
+      margin-top: 21px;
+
+      
+      &_anna{
+        margin-left: -50px;
+        &_jorj{
+          margin-left: -50px;
+        }
+        &_are{
+          margin-left: -50px;
+        }
+        
+        &_and{
+          display: none;
+        }
+      }
+    }
+ 
+
+    &_team{
+      &_vibe{
+        margin-top: 10px;
+        &_dental{
+          width: 933px;
         }
       }
     }

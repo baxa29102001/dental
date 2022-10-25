@@ -1,23 +1,114 @@
-@media screen and (min-width: $small) {
-  .last {
-    margin-top: 70px;
+.last {
+  margin-top: 70px;
 
-    &_give {
-      margin-top: 50px;
-      // margin: 0 auto;
-      margin-left: 70px;
+  &_give {
+    margin-top: 50px;
+    // margin: 0 auto;
+    margin-left: 25px;
+  }
+
+  &_give a {
+    text-decoration: none;
+    padding: 25px 76px 26px 75px;
+    border: 1px solid blue;
+    //  margin: 0 auto;
+    // margin-top: 50px;
+    //  text-align: center;
+    border-radius: 5px;
+    color: #000000;
+  }
+
+  a:hover {
+    background-color: #0055b8;
+    color: black;
+    transition: 1s ease;
+    color: white;
+  }
+  
+
+  &_five {
+    width: 50px;
+    margin: 0 auto;
+    border: 1px solid #ffd600;
+
+    &_from {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center;
+      margin: 0 auto;
+      width: 290px;
+      color: #272727;
+
+      &_the {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 25px;
+        width: 281px;
+        margin: 0 auto;
+        text-align: center;
+        color: #4d4d4d;
+      }
+    }
+  }
+
+  &_box_nice {
+    &_lorem {
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 25px;
+      margin-left: 25px;
+      width: 306px;
+      color: #4d4d4d;
     }
 
-    &_give a {
-      text-decoration: none;
-      padding: 25px 76px;
-      border: 1px solid blue;
-      //  margin: 0 auto;
-      // margin-top: 50px;
-      //  text-align: center;
-      border-radius: 5px;
+    &_ivan {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 21px;
+
+      margin-left: 25px;
       color: #000000;
     }
+    &_img {
+      margin-left: 25px;
+      // margin: 0 auto;
+      margin-top: 43px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: $large) {
+ .last{
+  &_feedback{
+    margin-top: 50px;
+    // margin: 0 auto;
+    text-align: center;
+    
+  }
+  &_feedback a{
+    text-decoration: none;
+    padding: 25px 76px 26px 75px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: #000000;
 
     a:hover {
       background-color: #0055b8;
@@ -25,56 +116,25 @@
       transition: 1s ease;
       color: white;
     }
-    
+  }
+ 
 
-    &_five {
-      width: 50px;
-      margin: 0 auto;
-      border: 1px solid #ffd600;
 
-      &_from {
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 42px;
-        text-align: center;
-        margin: 0 auto;
-        width: 290px;
-        color: #272727;
-
-        &_the {
-          font-weight: 300;
-          font-size: 18px;
-          line-height: 25px;
-          width: 281px;
-          margin: 0 auto;
-          text-align: center;
-          color: #4d4d4d;
-        }
-      }
-    }
-
-    &_box_nice {
-      &_lorem {
-        font-weight: 300;
-        font-size: 18px;
-        line-height: 25px;
-        margin-left: 120px;
-        width: 306px;
-        color: #4d4d4d;
-      }
-
-      &_ivan {
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 21px;
-
-        margin-left: 120px;
-        color: #000000;
-      }
-      &_img {
-        margin-left: 120px;
-        // margin: 0 auto;
+  &_give{
+    display: none;
+  }
+  &_box{
+    display: flex;
+    margin: 0 auto;
+    margin-left: -30px;
+  }
+  &_five{
+    &_from{
+      width: 500px;
+      &_the{
+        width: 483px;
       }
     }
   }
+ }
 }
